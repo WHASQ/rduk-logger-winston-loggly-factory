@@ -1,0 +1,33 @@
+{
+  "name": "@rduk/logger-winston-loggly-factory",
+  "version": "0.1.0",
+  "description": "Loggly transport factory for Winston implementation of RDUK logger",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rd-uk/rduk-logger-winston-loggly-factory.git"
+  },
+  "keywords": [
+    "rduk",
+    "logger",
+    "winston",
+    "loggly",
+    "factory"
+  ],
+  "author": "RDUK <tech@rduk.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rd-uk/rduk-logger-winston-loggly-factory/issues"
+  },
+  "homepage": "https://github.com/rd-uk/rduk-logger-winston-loggly-factory#readme",
+  "dependencies": {
+    "winston": "2.4.0",
+    "winston-loggly-bulk": "2.0.2"
+  }
+}
