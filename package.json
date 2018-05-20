@@ -1,6 +1,6 @@
 {
   "name": "@rduk/logger-winston-loggly-factory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Loggly transport factory for Winston implementation of RDUK logger",
   "main": "lib/index.js",
   "directories": {
@@ -27,7 +27,9 @@
   },
   "homepage": "https://github.com/rd-uk/rduk-logger-winston-loggly-factory#readme",
   "dependencies": {
-    "winston": "2.4.0",
-    "winston-loggly-bulk": "2.0.2"
+    "winston-loggly-bulk": "^2.0.2"
+  },
+  "peerDependencies": {
+    "winston": "2.x"
   }
 }
